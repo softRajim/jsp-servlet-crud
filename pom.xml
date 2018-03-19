@@ -6,9 +6,6 @@
 
     <groupId>com</groupId>
     <artifactId>rajim</artifactId>
-    <name>JspServlet</name>
-    <!--<packaging>war</packaging>-->
-
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -20,46 +17,8 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-war-plugin</artifactId>-->
-                <!--<version>2.3</version>-->
-                <!--<configuration>-->
-
-                    <!--<failOnMissingWebXml>false</failOnMissingWebXml>-->
-                <!--</configuration>-->
-            <!--</plugin>-->
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-dependency-plugin</artifactId>-->
-                <!--<version>2.10</version>-->
-                <!--<executions>-->
-                    <!--<execution>-->
-                        <!--<phase>validate</phase>-->
-                        <!--<goals>-->
-                            <!--<goal>copy</goal>-->
-                            <!--<goal>sources</goal> &lt;!&ndash;  make source code available&ndash;&gt;-->
-
-                        <!--</goals>-->
-                        <!--<configuration>-->
-                            <!--<outputDirectory>${endorsed.dir}</outputDirectory>-->
-                            <!--<silent>true</silent>-->
-                            <!--<artifactItems>-->
-                                <!--<artifactItem>-->
-                                    <!--<groupId>javax</groupId>-->
-                                    <!--<artifactId>javaee-endorsed-api</artifactId>-->
-                                    <!--<version>7.0</version>-->
-                                    <!--<type>jar</type>-->
-                                <!--</artifactItem>-->
-                            <!--</artifactItems>-->
-                        <!--</configuration>-->
-                    <!--</execution>-->
-                <!--</executions>-->
-            <!--</plugin>-->
         </plugins>
-
     </build>
-
 
     <dependencies>
         <dependency>
@@ -85,6 +44,5 @@
             <version>5.1.30</version>
         </dependency>
     </dependencies>
-
 
 </project>

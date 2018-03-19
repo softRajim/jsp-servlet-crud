@@ -18,7 +18,6 @@ public class DbUtil {
         if(connection != null) {
             return connection;
         } else {
-
             try{
                 Properties properties = new Properties();
                 InputStream inputStream = DbUtil.class.getClassLoader()
